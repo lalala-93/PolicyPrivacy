@@ -5,113 +5,388 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Privacy Policy – Respawn</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
       color: #333;
-      max-width: 800px;
-      margin: 40px auto;
+      background-color: #f9f9f9;
       line-height: 1.6;
-      padding: 0 20px;
+      padding: 20px;
     }
-    h1, h2, h3 {
-      color: #222;
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
-    ul {
-      padding-left: 20px;
+    h1 {
+      color: #1a1a1a;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+    .last-updated {
+      color: #666;
+      font-size: 14px;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #eee;
+    }
+    h2 {
+      color: #1a1a1a;
+      font-size: 20px;
+      margin-top: 40px;
+      margin-bottom: 15px;
+      padding-top: 10px;
+      border-left: 4px solid #0066cc;
+      padding-left: 12px;
+    }
+    h3 {
+      color: #333;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      margin-bottom: 12px;
+      color: #555;
+      line-height: 1.8;
+    }
+    ul, ol {
+      margin-left: 25px;
+      margin-bottom: 15px;
+    }
+    li {
+      margin-bottom: 8px;
+      color: #555;
     }
     a {
       color: #0066cc;
+      text-decoration: none;
     }
-    section {
+    a:hover {
+      text-decoration: underline;
+    }
+    .intro-section {
+      background-color: #f0f7ff;
+      padding: 20px;
+      border-radius: 4px;
+      margin-bottom: 30px;
+    }
+    .address-block {
+      background-color: #f5f5f5;
+      padding: 15px;
+      border-radius: 4px;
+      margin: 10px 0;
+      font-size: 14px;
+    }
+    strong {
+      color: #1a1a1a;
+    }
+    .toc {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 4px;
       margin-bottom: 40px;
+    }
+    .toc ul {
+      list-style: none;
+      margin-left: 0;
+    }
+    .toc li {
+      margin-bottom: 8px;
+    }
+    .toc a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .contact-options {
+      background-color: #f0f7ff;
+      padding: 20px;
+      border-radius: 4px;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 18px;
+      }
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Privacy Policy for Respawn</h1>
+    <div class="last-updated">
+      <strong>Last updated:</strong> November 17, 2025
+    </div>
 
-  <h1>Privacy Policy for Respawn</h1>
-  <p><strong>Last updated:</strong> November 17, 2025</p>
+    <div class="intro-section">
+      <h3>About This Privacy Policy</h3>
+      <p>This Privacy Policy describes how <strong>Respawn</strong> (operated by <strong>Amenallah Nefzi</strong>, trading as <strong>Lvlup</strong>), collects, uses, discloses, and safeguards your personal information when you use our mobile application ("App") or related services ("Services").</p>
+      <p>Please read this policy carefully. If you do not agree with our practices, please do not use our App or Services.</p>
+    </div>
 
-  <section>
-    <p>This Privacy Policy describes how <strong>Respawn</strong>, operated by <strong>Amenallah Nefzi</strong> (doing business as <strong>Lvlup</strong>), collects, uses, discloses, and safeguards your information when you use our mobile application (“App”) or related services.</p>
-    <p><strong>Address:</strong><br>Avenue Elisée Reclus, Pierrefitte-sur-Seine 93380, France</p>
-  </section>
+    <div class="address-block">
+      <strong>Data Controller Information:</strong><br>
+      Amenallah Nefzi (Lvlup)<br>
+      Avenue Elisée Reclus<br>
+      Pierrefitte-sur-Seine 93380<br>
+      France<br>
+      Email: amenallahnefzi211@gmail.com
+    </div>
 
-  <section>
-    <h2>1. Information We Collect</h2>
-    <h3>1.1 Information You Provide</h3>
-    <p>We may collect:</p>
-    <ul>
-      <li>Email address</li>
-      <li>Login identifiers via Apple / Google</li>
-      <li>Subscription or payment information (via Superwall / App Store)</li>
-    </ul>
+    <div class="toc">
+      <h3>Quick Navigation</h3>
+      <ul>
+        <li><a href="#section1">1. Information We Collect</a></li>
+        <li><a href="#section2">2. How We Use Your Information</a></li>
+        <li><a href="#section3">3. Sharing Your Information</a></li>
+        <li><a href="#section4">4. Data Retention</a></li>
+        <li><a href="#section5">5. Your Privacy Rights</a></li>
+        <li><a href="#section6">6. Data Security</a></li>
+        <li><a href="#section7">7. Third-Party Services</a></li>
+        <li><a href="#section8">8. Children's Privacy</a></li>
+        <li><a href="#section9">9. International Users</a></li>
+        <li><a href="#section10">10. Policy Updates</a></li>
+        <li><a href="#section11">11. Contact Us</a></li>
+      </ul>
+    </div>
 
-    <h3>1.2 Automatically Collected Information</h3>
-    <p>We automatically collect technical and usage data, including:</p>
-    <ul>
-      <li>Device model, OS version, IP address</li>
-      <li>App usage (which features, how often)</li>
-      <li>Crash logs and analytics data</li>
-    </ul>
-  </section>
+    <section id="section1">
+      <h2>1. Information We Collect</h2>
+      
+      <h3>1.1 Information You Provide Directly</h3>
+      <p>We collect information you voluntarily provide:</p>
+      <ul>
+        <li><strong>Email address</strong> – for account creation and communication</li>
+        <li><strong>Authentication credentials</strong> – via Apple ID or Google Sign-In (we don't store your passwords; authentication is handled by Apple/Google)</li>
+        <li><strong>Subscription and payment information</strong> – processed through the App Store, Google Play Store, Superwall, or payment processors (we don't directly store full payment card details)</li>
+        <li><strong>Profile information</strong> – username, preferences, goals, and activity data you enter</li>
+        <li><strong>Communications</strong> – feedback, support requests, or inquiries you send us</li>
+      </ul>
 
-  <section>
-    <h2>2. How We Use Your Information</h2>
-    <p>We use your information to:</p>
-    <ul>
-      <li>Operate and maintain Respawn</li>
-      <li>Manage your account and subscription</li>
-      <li>Improve the App’s features</li>
-      <li>Ensure security and prevent fraud</li>
-      <li>Communicate with you (support, updates)</li>
-    </ul>
-  </section>
+      <h3>1.2 Information Automatically Collected</h3>
+      <p>We automatically collect technical and usage information:</p>
+      <ul>
+        <li><strong>Device information</strong> – device model, OS version, unique identifiers (UDID, IDFA)</li>
+        <li><strong>Network information</strong> – IP address, connection type, mobile network data</li>
+        <li><strong>Usage analytics</strong> – which features you use, how often, and for how long</li>
+        <li><strong>Performance data</strong> – crash logs, error reports, app performance metrics</li>
+        <li><strong>Location data</strong> – only if you grant permission; used only to enhance your experience</li>
+        <li><strong>Cookies and similar technologies</strong> – session identifiers and tracking technologies</li>
+      </ul>
 
-  <section>
-    <h2>3. Sharing Your Information</h2>
-    <p>We may share your data with:</p>
-    <ul>
-      <li><strong>Service Providers:</strong> such as Supabase (for authentication/database) and Superwall (for subscription/paywall)</li>
-      <li><strong>Legal / Regulatory Authorities:</strong> When required by law</li>
-      <li><strong>Business Transfers:</strong> In case of sale, merger, or acquisition</li>
-    </ul>
-  </section>
+      <h3>1.3 Information from Third Parties</h3>
+      <p>We may receive information from:</p>
+      <ul>
+        <li><strong>Authentication providers</strong> – Apple and Google (basic profile info only)</li>
+        <li><strong>Analytics providers</strong> – aggregated usage data</li>
+        <li><strong>Payment processors</strong> – confirmation of successful transactions</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>4. Data Retention</h2>
-    <p>We retain personal data as long as necessary to provide the App and fulfill our legal obligations. When you delete your account, we will either securely delete or anonymize your data, except where retention is required by law.</p>
-  </section>
+    <section id="section2">
+      <h2>2. How We Use Your Information</h2>
+      <p>We use your information for the following purposes:</p>
+      <ul>
+        <li><strong>Service Delivery</strong> – to operate, maintain, and improve the App and Services</li>
+        <li><strong>Account Management</strong> – to create and manage your account, process authentication</li>
+        <li><strong>Subscription & Billing</strong> – to manage subscriptions, process payments, and send billing information</li>
+        <li><strong>Communications</strong> – to send important updates, support responses, or technical notifications</li>
+        <li><strong>Analytics & Improvement</strong> – to understand user behavior and enhance features and performance</li>
+        <li><strong>Security & Fraud Prevention</strong> – to detect, prevent, and address fraud, abuse, and security issues</li>
+        <li><strong>Legal Compliance</strong> – to comply with laws, regulations, and legal requests</li>
+        <li><strong>Marketing** (with your consent)</strong> – to send promotional content or newsletters (you can opt-out anytime)</li>
+      </ul>
+      <p><strong>Legal Basis (for EU/UK users):</strong> We process personal data based on: (a) your explicit consent, (b) contractual necessity to provide Services, (c) our legitimate interests, and (d) legal obligation.</p>
+    </section>
 
-  <section>
-    <h2>5. Your Rights</h2>
-    <p>You have certain rights regarding your personal data, depending on your location:</p>
-    <ul>
-      <li>Access your data</li>
-      <li>Correct or update your information</li>
-      <li>Request deletion of your data</li>
-      <li>Withdraw consent (if applicable)</li>
-      <li>Restrict processing</li>
-    </ul>
-    <p>To exercise these rights, please contact us at <strong>amenallahnefzi211@gmail.com</strong>.</p>
-  </section>
+    <section id="section3">
+      <h2>3. Sharing Your Information</h2>
+      <p>We may share your information with the following entities:</p>
+      
+      <h3>3.1 Service Providers</h3>
+      <p>We share necessary data with trusted service providers who assist us:</p>
+      <ul>
+        <li><strong>Supabase</strong> – authentication, database management, and data storage</li>
+        <li><strong>Superwall</strong> – subscription management, paywall handling, and analytics</li>
+        <li><strong>Analytics providers</strong> – Firebase or similar services for usage analytics</li>
+        <li><strong>Payment processors</strong> – App Store, Google Play Store, Stripe, or other payment gateways</li>
+      </ul>
+      <p>We have Data Processing Agreements (DPAs) in place with our service providers to ensure they protect your data according to applicable privacy laws.</p>
 
-  <section>
-    <h2>6. Children’s Privacy</h2>
-    <p>Our App is not intended for users under 18. We do not knowingly collect data from children under 18. If we discover such data, we will delete it promptly.</p>
-  </section>
+      <h3>3.2 Legal Requirements</h3>
+      <p>We may disclose information when required by law, such as:</p>
+      <ul>
+        <li>Court orders or legal requests from law enforcement</li>
+        <li>Government or regulatory investigations</li>
+        <li>Protection of our legal rights or safety</li>
+      </ul>
 
-  <section>
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy. When we do, we will post the new version here with an updated date. Your continued use of the App after changes will constitute acceptance.</p>
-  </section>
+      <h3>3.3 Business Transfers</h3>
+      <p>If Respawn is involved in a merger, acquisition, bankruptcy, or asset sale, your personal information may be transferred as part of that transaction. We'll provide notice if such a change occurs.</p>
 
-  <section>
-    <h2>8. Contact Us</h2>
-    <p>If you have any privacy-related questions or want to make a request, here is how to reach us:</p>
-    <p><strong>Email:</strong> amenallahnefzi211@gmail.com</p>
-    <p><strong>Address:</strong><br>Avenue Elisée Reclus, Pierrefitte-sur-Seine 93380, France</p>
-  </section>
+      <h3>3.4 Non-Sharing Policy</h3>
+      <p>We do NOT sell, rent, or trade your personal information to third parties for marketing purposes. We do NOT share data with unauthorized parties without your consent, except as required by law.</p>
+    </section>
 
+    <section id="section4">
+      <h2>4. Data Retention</h2>
+      <p>We retain personal data for as long as necessary to provide Services and fulfill legal obligations:</p>
+      <ul>
+        <li><strong>Account data:</strong> Retained while your account is active, plus a reasonable period for compliance</li>
+        <li><strong>Payment information:</strong> Retained according to tax and financial regulations (typically 7 years)</li>
+        <li><strong>Analytics data:</strong> Typically aggregated and retained for 24 months</li>
+        <li><strong>Support/communication records:</strong> Retained for 2-3 years</li>
+      </ul>
+      <p><strong>Account Deletion:</strong> When you delete your account, we will securely delete or anonymize your personal data within 30 days, except where retention is required by law. Some anonymized, aggregated data may be retained for statistical purposes.</p>
+    </section>
+
+    <section id="section5">
+      <h2>5. Your Privacy Rights</h2>
+      <p>Depending on your location, you have the following rights regarding your personal data:</p>
+      
+      <h3>5.1 Rights for EU/EEA/UK Users (GDPR & UK GDPR)</h3>
+      <ul>
+        <li><strong>Right of Access:</strong> Request a copy of your personal data we hold</li>
+        <li><strong>Right to Rectification:</strong> Correct inaccurate or incomplete information</li>
+        <li><strong>Right to Erasure:</strong> Request deletion of your data ("Right to be Forgotten")</li>
+        <li><strong>Right to Restrict Processing:</strong> Limit how we use your data</li>
+        <li><strong>Right to Data Portability:</strong> Receive your data in a portable, machine-readable format</li>
+        <li><strong>Right to Object:</strong> Opt-out of certain processing activities, including marketing</li>
+        <li><strong>Right to Lodge a Complaint:</strong> File a complaint with your local data protection authority</li>
+        <li><strong>Right to Withdraw Consent:</strong> Withdraw consent at any time (doesn't affect prior processing)</li>
+      </ul>
+
+      <h3>5.2 Rights for California Users (CCPA/CPRA)</h3>
+      <ul>
+        <li>Right to Know what personal data we collect and how we use it</li>
+        <li>Right to Delete your personal data (with certain exceptions)</li>
+        <li>Right to Correct inaccurate information</li>
+        <li>Right to Opt-Out of data selling or sharing (note: we don't sell data)</li>
+        <li>Right to Limit use of sensitive personal information</li>
+      </ul>
+
+      <h3>5.3 Other US State Rights</h3>
+      <p>Users in Colorado, Connecticut, Delaware, Indiana, Iowa, Kentucky, Mississippi, Montana, New Hampshire, Ohio, Tennessee, Utah, and Virginia have similar rights under their respective state privacy laws.</p>
+
+      <h3>5.4 How to Exercise Your Rights</h3>
+      <p>To submit a privacy request, contact us at <strong>amenallahnefzi211@gmail.com</strong> with:</p>
+      <ul>
+        <li>Your full name and email</li>
+        <li>A clear description of your request</li>
+        <li>Verification information (e.g., your account ID)</li>
+      </ul>
+      <p>We will respond within legally required timeframes (typically 30 days). We may request additional information to verify your identity and process your request securely.</p>
+    </section>
+
+    <section id="section6">
+      <h2>6. Data Security</h2>
+      <p>We implement comprehensive security measures to protect your personal data:</p>
+      <ul>
+        <li><strong>Encryption:</strong> Data transmitted between your device and our servers is encrypted using SSL/TLS protocols</li>
+        <li><strong>Secure Storage:</strong> Data at rest is encrypted and stored securely via Supabase</li>
+        <li><strong>Access Controls:</strong> Only authorized personnel can access personal data, with role-based restrictions</li>
+        <li><strong>Monitoring:</strong> We monitor for unauthorized access and suspicious activities</li>
+        <li><strong>Third-Party Security:</strong> We ensure our service providers maintain strong security standards</li>
+        <li><strong>Regular Updates:</strong> We maintain and update security systems regularly</li>
+      </ul>
+      <p><strong>Important Note:</strong> While we implement robust security measures, no online system is 100% secure. We encourage you to protect your login credentials and report any security concerns immediately.</p>
+    </section>
+
+    <section id="section7">
+      <h2>7. Third-Party Services & Integrations</h2>
+      
+      <h3>7.1 Third-Party Links & Policies</h3>
+      <p>Our App may contain links to third-party websites or services (e.g., social media, documentation). We are not responsible for their privacy practices. Please review their privacy policies before sharing information with them.</p>
+
+      <h3>7.2 Apple App Store & Google Play Store</h3>
+      <p>You may be subject to the privacy policies and terms of service of Apple and Google. We recommend reviewing:</p>
+      <ul>
+        <li><a href="https://www.apple.com/privacy/" target="_blank" rel="noopener">Apple Privacy Policy</a></li>
+        <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
+      </ul>
+
+      <h3>7.3 Analytics & Tracking</h3>
+      <p>We use analytics services (e.g., Firebase, Mixpanel) to understand app usage and improve services. These services may collect device identifiers and usage data. You can opt-out of personalized analytics in your device settings.</p>
+
+      <h3>7.4 Cookies & Similar Technologies</h3>
+      <p>Our app uses cookies, local storage, and similar technologies to:</p>
+      <ul>
+        <li>Maintain your session and remember preferences</li>
+        <li>Track app performance and errors</li>
+        <li>Personalize your experience</li>
+      </ul>
+      <p>You can control cookies through your device settings, but some features may not function properly.</p>
+    </section>
+
+    <section id="section8">
+      <h2>8. Children's Privacy</h2>
+      <p><strong>Age Restriction:</strong> Our App is not intended for users under 18 years of age. We do not knowingly collect personal data from children under 18. If we become aware that we have collected data from a minor, we will delete it promptly without undue delay.</p>
+      <p><strong>Parental Concerns:</strong> If you believe your child has provided personal information to us, please contact us immediately at <strong>amenallahnefzi211@gmail.com</strong>.</p>
+    </section>
+
+    <section id="section9">
+      <h2>9. International Users & Data Transfers</h2>
+      <p><strong>For EU/EEA Users:</strong> Personal data may be transferred to and stored in countries outside the EU/EEA, including the United States. We ensure such transfers comply with applicable laws, including:</p>
+      <ul>
+        <li>EU Standard Contractual Clauses (SCCs)</li>
+        <li>Appropriate safeguards in Data Processing Agreements</li>
+      </ul>
+      <p><strong>For All Users:</strong> By using our App, you consent to the transfer of your personal data internationally as necessary to provide Services.</p>
+    </section>
+
+    <section id="section10">
+      <h2>10. Changes to This Privacy Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, or applicable laws. When we make material changes, we will:</p>
+      <ul>
+        <li>Post the updated policy on this page with a new "Last Updated" date</li>
+        <li>Notify you via email or in-app notification if changes are significant</li>
+      </ul>
+      <p>Your continued use of the App after changes constitute your acceptance of the updated Privacy Policy. We recommend reviewing this policy periodically to stay informed about how we protect your information.</p>
+    </section>
+
+    <section id="section11">
+      <h2>11. Contact Us & Privacy Requests</h2>
+      <p>If you have questions, concerns, or wish to exercise your privacy rights, please reach out to us:</p>
+      
+      <div class="contact-options">
+        <h3>Contact Methods:</h3>
+        <p><strong>Email:</strong> <a href="mailto:amenallahnefzi211@gmail.com">amenallahnefzi211@gmail.com</a></p>
+        <p><strong>Mailing Address:</strong></p>
+        <p>
+          Amenallah Nefzi (Lvlup)<br>
+          Avenue Elisée Reclus<br>
+          Pierrefitte-sur-Seine 93380<br>
+          France
+        </p>
+        <p><strong>Privacy Request Form:</strong> <a href="https://docs.google.com/forms/d/e/1FAIpQLSeIPViB_zo9FOjbu2-ZaweGxq8DVVWZP-tnrvsJh11z56bhRg/viewform?usp=header" target="_blank" rel="noopener">Submit a Privacy Request</a></p>
+      </div>
+
+      <h3>Response Timeframe</h3>
+      <p>We aim to respond to all legitimate privacy requests and inquiries within 30 days. Complex requests may require additional time, but we will keep you informed of progress. All communications are handled confidentially and securely.</p>
+    </section>
+
+    <section>
+      <h2>Data Protection Authority</h2>
+      <p>If you are in the EU and believe we have not adequately addressed your privacy concerns, you have the right to lodge a complaint with your local data protection authority:</p>
+      <ul>
+        <li><strong>France (CNIL):</strong> <a href="https://www.cnil.fr/en" target="_blank" rel="noopener">https://www.cnil.fr</a></li>
+        <li><strong>Other EU Member States:</strong> Visit <a href="https://edpb.ec.europa.eu/about-edpb/board/members_en" target="_blank" rel="noopener">EDPB Member Authorities</a></li>
+      </ul>
+    </section>
+
+  </div>
 </body>
 </html>
